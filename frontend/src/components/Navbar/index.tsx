@@ -5,19 +5,19 @@ function Navbar() {
 
     return (
         <header>
-      <nav className="conainer">
-        <div className="dsmovie-nav-content">
-         <h1>DSMovie</h1>
-         <a href="https://github.com/diegolbs95">
-        <div className="dsmovie-contact-container">
-            <GithubIcon />
-            <p className="dsmovie-contact-link">/diegolbs95</p>
-          </div>
-        </a>
-         </div>
-      </nav>
-    </header>
-    );
+            <nav className="conainer">
+              <div className="dsmovie-nav-content">
+                  <h1>DSMovie</h1>
+                  <a href="https://github.com/diegolbs95">
+                      <div className="dsmovie-contact-container">
+                            <GithubIcon />
+                            <p className="dsmovie-contact-link">/diegolbs95</p>
+                         </div>
+                      </a>
+                   </div>
+             </nav>
+      </header>
+  );
 
 }
 
