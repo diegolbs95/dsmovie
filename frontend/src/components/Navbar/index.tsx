@@ -7,7 +7,7 @@ function Navbar() {
         <header>
             <nav className="container">
               <div className="dsmovie-nav-content">
-                  <h1>DLMovies</h1>
+                  <h1>Filmes 2021</h1>
                   <a href="https://github.com/diegolbs95">
                       <div className="dsmovie-contact-container">
                             <GithubIcon />
