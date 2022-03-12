@@ -1,6 +1,4 @@
-import { type } from "@testing-library/user-event/dist/type";
 import MovieStars from "components/MovieStars";
-import { count } from "console";
 import './styles.css';
 
 type Props = {
@@ -8,7 +6,6 @@ type Props = {
     count : number;
 }
 function MovieScore({score, count}: Props) {
-
 
     return (
         <div className="dsmovie-score-container">
